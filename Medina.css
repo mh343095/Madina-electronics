@@ -265,9 +265,10 @@ h4 b{
   align-items: center;
   background-color: #3B4A5C;
   overflow: visible;
+  text-align: center; 
 }
 .get-container{
-  background-color: #52555C
+  background-color: #52555C;
   height: 50px;
   width: 70%;
 }
