@@ -1,0 +1,342 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+h1{
+    padding-left: 10px;
+}
+.heading {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: space-between;
+  height: 800px;
+  padding: 20px; /* fixed typo: '20x' to '20px' */
+}
+
+
+
+.main {
+  width: 40%;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.home-hero4 {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  background-image: url('home-hero4.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+.nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: -50px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.nav-links a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #f57c00;
+}
+
+
+
+.navigation {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 15px;
+  background-color: rgba(255, 255, 255, 0.2); /* optional: semi-transparent background */
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.bio {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #444;
+  max-width: 100%;
+  /* margin: 20px 0; */
+}
+
+.welcome {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1px;
+  margin-top: 70px;
+}
+
+.get  {
+    height: 50px;
+    width: 100px;
+  padding: 0px 20px;
+  margin-right: 10px;
+  margin-bottom: 50px;
+  background-color: #e340b0;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  border: 2px solid #e340b0;
+}
+
+.get:hover {
+  background-color: #931b6b;
+}
+.read  {
+    height: 50px;
+    width: 100px;
+  border: none;
+  color:#e340b0 ;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  border: 2px solid  #e340b0;;
+}
+
+.read:hover{
+    background-color:  #e340b0;
+    color: white;
+}
+.shop-front{
+    margin-top: 10px;
+    background-image: url(shop-front.jpeg);
+    height: 60vh;
+    width: 100%;
+    background-size: cover;
+}
+
+ .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Space evenly between cards */
+    
+    padding: 10px;
+    background-color: #f5f5f5; /* Optional: light background */
+}
+
+.card {
+    /* display: flex; */
+    width: 31.5%;   /* So that 3 cards fit per row with margin */
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    padding: 10px;
+}
+
+.card img {
+    width: 100%; /* Make sure image fills card width */
+    height: auto;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+}
+h4 b{
+    text-align:center;
+    justify-content: center;
+}
+
+ 
+ .reat{
+    display: inline;
+    padding-right: 30px;
+    padding-left: 220px;
+    margin-right: -20px;
+ }
+ .learn{
+  height: 40px;
+  width: 120px;
+  padding: 0px 20px;
+  margin-left: 80vw;
+  margin-bottom: 50px;
+  background-color: #e340b0;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  border: 2px solid #e340b0;
+ }
+ .learn:hover {
+  background-color: #931b6b;
+}
+.owner-info{
+  margin-top: 80px;
+  min-height: 30vh;
+  width: 100%;
+  display: flex;
+  align-items: left;
+  justify-content: left; 
+}
+
+.owner-image img { 
+  position: relative;
+  bottom:40px;
+  left: -10px;
+  width: 30vw;
+  object-position: center; 
+  border-radius: 50%;
+  display: flex;
+  align-items: end;
+  justify-content: right;
+}
+.h2 p{
+  padding-right: 10px;
+}
+.client{
+  display:flex;
+}
+.saying{
+  position: relative;
+   top: -160px;
+  right: -400px;  
+}
+.ahmed{
+ border: 2px solid black; 
+ background-color: #d4d7d1;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ border-radius: 3px;
+}
+.ahmed h5{
+  font-size: 16px;
+}
+.ahmed h5 {
+  width: 270px ;
+  height: 70px;
+}
+ .container1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Space evenly between cards */
+    padding: 10px;
+    background-color: #f5f5f5; /* Optional: light background */
+}
+.card1 {
+    display: flex;
+    width: 32%; 
+    height: 10%;  So that 3 cards fit per row with margin
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+.content1 {
+    padding: 10px;
+}
+.card1 img {
+    width: 100%;
+     /* Make sure image fills card width */
+    height: auto;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+}
+.get-in{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #3B4A5C;
+  overflow: visible;
+}
+.get-container{
+  background-color: #52555C
+  height: 50px;
+  width: 70%;
+}
+.get-content{
+background-color:#1F2937;
+flex-wrap: wrap;
+border-radius: 5px; 
+}
+.touch{
+position: relative;
+left: 250px;
+top: 10px;
+font-size: xx-large;
+color: white;
+}
+#name{
+height: 70px;
+width: 65%;
+display: flex; 
+align-items: center;
+justify-self: center; 
+margin-top: 25px;
+border-radius: 5px;
+}
+.send{
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  height: 7vh;
+  width: 65%;
+  align-items: center;
+  justify-content: center;
+  left: 18%;
+  background-color: #157cf1;
+  margin-top: 20px;
+  border-radius: 4px;
+  font-size: large;
+  font-family: 'Segoe UI'
+
+}
+.send:hover{
+  transform: translate(70px, 35px);
+  transition-duration: 0.5s;
+  border-radius: 3px;
+  color: #5c03f5;
+}
+.last{
+display: flex;
+background-color: #157cf1;
+color: white;
+height: 300px;
+padding-left: 5px;
+margin-top: 40px;
+
+}
+.phone{
+  display: block;
+  position: relative;
+  top:  200px;
+  right: 405px;
+  margin-top: 30px;
+}
+.links{
+  position: relative;
+  left: 90px;
+}
+.location{
+  
+  position: relative;
+  top:200px ;
+  right: 270px;
+}
